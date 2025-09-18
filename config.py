@@ -17,7 +17,8 @@ class Config:
     BOT_TOKEN = os.getenv('BOT_TOKEN', '')
     
     # Storage channel ID
-    STORAGE_CHANNEL_ID = int(os.getenv('STORAGE_CHANNEL_ID', 0))
+    #STORAGE_CHANNEL_ID = int(os.getenv('STORAGE_CHANNEL_ID', 0))
+    STORAGE_CHANNEL_ID=@bittadabotniki
     
     # Session configuration
     SESSION_NAME = os.getenv('SESSION_NAME', 'userbot_session')
